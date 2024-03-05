@@ -1,0 +1,165 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+h1,h2,h3,h4,h5,h6,p{
+    padding: 0;
+    margin: 0;
+}
+
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+
+.container{
+    max-width: 1320px;
+}
+
+ul{
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+
+/* ======================================= */
+
+.navbar{
+    padding: 17px 143px 16px 136px;
+    position: absolute;
+    width: 100%;
+    z-index: 9;
+}
+
+.navbar .b1{
+    border: 0;
+    background: transparent;
+    color: #23A6F0;
+    margin-right: 45px;
+    margin-left: 240px;
+}
+.navbar .b2{
+    border: 0;
+    background:#23A6F0;
+    color: white;
+    padding: 15px 21px 15px 25px;
+    border-radius: 5px;
+}
+.navbar .navbar-nav{
+    column-gap: 21px;
+    
+}
+.navbar .navbar-nav li a{
+    color: #737373;
+    font-weight: 700;
+    
+}
+
+/* =========================================== */
+
+#banner_part{
+    background: url(../images/background.jpg) no-repeat center / cover;
+    padding: 148px 79px 148px ;
+    position: relative;
+}
+#banner_part .container h3{
+    font-size: 16PX;
+    color: #23A6F0;
+}
+
+#banner_part .container h1{
+    font-size: 80PX;
+    width: 542px;
+}
+#banner_part .container p{
+    font-size: 20px;
+    width: 517px;
+    color: #737373;
+    margin: 30px 0;
+    
+}
+#banner_part .container .btn1{
+    padding: 15px 40px;
+    background-color: #23A6F0;
+    border-radius: 5px;
+    border: 0;
+    color: #ffffff;
+    
+}
+#banner_part .container .btn2{
+    padding: 15px 40px;
+    color: #23A6F0;
+    border-radius: 5px;
+    border: 1px solid #23A6F0;
+    background: transparent;
+    
+}
+#banner_part .container .image .banner_img1{
+    position: absolute;
+    top: 142px;
+    right:80px;
+}
+#banner_part .container .image .banner_img2{
+    position: absolute;
+    top:263px;
+    right: 442px;
+}
+#banner_part .container .image .banner_img3{
+    position: absolute;
+    top:577px;
+    right: 270px;
+}
+#banner_part .container .image .banner_img4{
+    position: absolute;
+    top:152px;
+    right: 5px;
+}
+
+#banner_part .container .image .banner_img5{
+    position: absolute;
+    top:632px;
+    right: 30px;
+}
+
+/* ========================================================= */
+
+#service_part{
+    padding: 160px 0;
+}
+#service_part .title h6{
+    font-size: 16PX;
+    color: #23A6F0;
+}
+#service_part .title h2{
+    font-size: 40PX;
+    margin: 10px 0;
+}
+#service_part .title {
+    width: 463px;
+}
+#service_part .container .row{
+    row-gap: 24px;
+}
+#service_part .container .row .main{
+    padding: 35px 156px 35px 40px;
+    box-shadow: 0px 9px 13px 3px rgba(0,0,0,0.12);
+    margin-top: 80px;
+}
+#service_part .container .row .main h3{
+    font-size: 16px;
+    font-weight: 900;
+    margin: 20px 0 20px;
+}
+#service_part .container .row .main img{
+    margin: 0 0 20px ;
+}
+
+#service_part .container .row .main p{
+    font-size: 13px;
+    font-weight: 400;
+    color: #737373;
+    width: 132px;
+}
